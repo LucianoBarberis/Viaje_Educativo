@@ -126,6 +126,9 @@ h2 {
     backdrop-filter: blur(7.2px);
     -webkit-backdrop-filter: blur(7.2px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .video {
     width: 270px;
@@ -138,7 +141,7 @@ h2 {
 }
 @media (min-width: 320px) {
     main {
-        margin: 0px 10px;
+        margin: 0px 0px;
     }
     .contenedor2 {
         flex-wrap: wrap;
@@ -165,6 +168,11 @@ h2 {
     p {
         font-size: 17px;
     }
+    iframe {
+        width: 290px;
+        padding: 0px;
+        margin: 0px;
+    }
 }
 @media (min-width: 550px) {
     .contenedor2 {
@@ -180,6 +188,11 @@ h2 {
     .img1:hover {
         height: 325px;
         width: 325px;
+    }
+    iframe {
+        width: 490px;
+        padding: 0px;
+        margin: 0px;
     }
 }
 @media (min-width: 1200px) {
@@ -211,5 +224,10 @@ h2 {
     }
     p {
         font-size: 20px;
+    }
+    iframe {
+        width: 560px;
+        padding: 0px;
+        margin: 0px;
     }
 }
